@@ -1,5 +1,4 @@
 import net.alasc.symdpoly._
-import net.alasc.symdpoly.mosek._
 
 object CHSH extends App {
 
@@ -65,11 +64,15 @@ object CHSH extends App {
   relaxation.writeMomentIndexMatrix("output/chsh_moment_index_matrix.txt")
   relaxation.writeCanonicalMonomials("output/chsh_canonical_monomials.txt")
   relaxation.writeSymmetryGroupDescription("output/chsh_symmetry_group.txt")
+
   /* UNCOMMENT below if using Mosek (see build.sbt file)
+
+  import net.alasc.symdpoly.mosek._
   relaxation.mosekInstance.writeFile("output/chsh.cbf")
   relaxation.mosekInstance.writeFile("output/chsh.task")
   relaxation.mosekInstance.writeFile("output/chsh.jtask")
    */
+
   relaxation.sdpaInstance.writeFile("output/chsh_sdpa.dat-s")
   relaxation.sedumiInstance.writeFile("output/chsh_sedumi.mat")
   relaxation.scsInstance.writeFile("output/chsh_scs.mat")
