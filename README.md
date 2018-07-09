@@ -49,6 +49,6 @@ and the following data files:
 
 and, if you have a [Mosek](https://www.mosek.com/) license follow the instructions in [build.sbt](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/build.sbt):
 
-- [chsh.cbf](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh.cbf)
-- [chsh.jtask](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh.jtask)
-- [chsh.task](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh.task)
+- [chsh.cbf](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh.cbf) Mosek input file in the [Conic Benchmark Format](https://docs.mosek.com/8.1/toolbox/cbf-format.html#doc-shared-cbfformat)
+- [chsh.jtask](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh.jtask) Mosek input file in the [Task Format](https://docs.mosek.com/8.1/toolbox/task-format.html#doc-shared-taskformat)
+- [chsh.task](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh.task) Mosek input file in the [JSON Format](https://docs.mosek.com/8.1/toolbox/json-format.html#doc-shared-jtaskformat)
