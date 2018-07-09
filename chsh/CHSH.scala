@@ -68,9 +68,9 @@ object CHSH extends App {
   /* UNCOMMENT below if using Mosek (see build.sbt file)
 
   import net.alasc.symdpoly.mosek._
-  relaxation.mosekInstance.writeFile("output/chsh.cbf")
-  relaxation.mosekInstance.writeFile("output/chsh.task")
-  relaxation.mosekInstance.writeFile("output/chsh.jtask")
+  relaxation.mosekInstance.writeFile("output/chsh_mosek.cbf")
+  relaxation.mosekInstance.writeFile("output/chsh_mosek.task")
+  relaxation.mosekInstance.writeFile("output/chsh_mosek.jtask")
    */
 
   relaxation.sdpaInstance.writeFile("output/chsh_sdpa.dat-s")
