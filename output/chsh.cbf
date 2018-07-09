@@ -1,0 +1,33 @@
+VER
+1
+
+OBJSENSE
+MIN
+
+PSDVAR
+1
+5
+
+CON
+1 1
+L= 1
+
+OBJFCOORD
+5
+0 0 0 1e+0
+0 1 1 1e+0
+0 2 2 1e+0
+0 3 3 1e+0
+0 4 4 1e+0
+
+FCOORD
+4
+0 0 3 1 -1e+0
+0 0 3 2 -1e+0
+0 0 4 1 -1e+0
+0 0 4 2 1e+0
+
+BCOORD
+1
+0 -4e+0
+
