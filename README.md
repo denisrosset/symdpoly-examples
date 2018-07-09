@@ -47,7 +47,7 @@ and the following data files:
 - [chsh_sdpt3.mat](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh_sdpt3.mat) SDPT3 input file, can be used either with [SDPT3](http://www.math.nus.edu.sg/~mattohkc/sdpt3.html), [SDPNAL](http://www.math.nus.edu.sg/~mattohkc/SDPNAL.html) (untested) or [SDPNAL+](http://www.math.nus.edu.sg/~mattohkc/SDPNALplus.html)
 - [chsh_sedumi.mat](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh_sedumi.mat) [SeDuMi](http://sedumi.ie.lehigh.edu/) input file
 
-and, if you have a [Mosek](https://www.mosek.com/) license follow the instructions in [build.sbt]https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/build.sbt:
+and, if you have a [Mosek](https://www.mosek.com/) license follow the instructions in [build.sbt](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/build.sbt):
 
 - [chsh.cbf](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh.cbf)
 - [chsh.jtask](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh.jtask)
