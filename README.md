@@ -1,18 +1,18 @@
-SymDPoly example gallery
-========================
+# SymDPoly example gallery
 
 To run the examples here, follow the steps below.
 
-1. Install the SBT build tool
------------------------------
+## 1. Install the SBT build tool
 
-Direct download: https://www.scala-sbt.org/download.html
-Instructions for Linux: https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html
-Instructions for macOS: https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Mac.html
-Instructions for Windows: https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Windows.html
+- Direct download: https://www.scala-sbt.org/download.html
 
-2. Try a simple example
------------------------
+- Instructions for Linux: https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html
+
+- Instructions for macOS: https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Mac.html
+
+- Instructions for Windows: https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Windows.html
+
+## 2. Try a simple example
 
 Execute the command `sbt run` in the `chsh/` subfolder.
 
