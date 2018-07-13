@@ -37,7 +37,7 @@ Then have a look at the [chsh/output/](https://github.com/denisrosset/symdpoly-e
 - [chsh_symmetry_group.txt](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh_symmetry_group.txt) The computed symmetry group of the problem.
 - [chsh_moment_matrix.txt](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh_moment_matrix.txt) The symmetrized moment matrix build by the library.
 - [chsh_canonical_monomials.txt](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh_canonical_monomials.txt) The list of canonical monomials, and their orbit under the symmetry group.
-- [chsh_moment_index_matrix.txt](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh_moment_index_matrix.txt) A matrix of indices of monomials (corresponding to the canonical monomials above).
+- [chsh_moment_index_matrix.txt](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh_moment_index_matrix.txt) A matrix of indices of monomials (corresponding to the canonical monomials above, monomial indices run from 0...nMonomials-1, and the index -1 meaning the value "0" which happens when the moment matrix is sparse under symmetry).
 - [chsh_phase_matrix.txt](https://github.com/denisrosset/symdpoly-examples/blob/master/chsh/output/chsh_phase_matrix.txt) A matrix of phases for those monomials (for this real example, phases are either +1 or -1).
 
 and the following data files:
